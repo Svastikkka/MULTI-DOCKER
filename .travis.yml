@@ -2,14 +2,10 @@ language: generic
 sudo: required
 services:
   - docker
-
 before_install:
   - docker build -t svastikkka/react-test -f ./client/Dockerfile.dev ./client
-
-
 script:
   - docker run -e CI=true svastikkka/react-test npm test
-
 after_success:
   - docker build -t svastikkka/multi-client ./client
   - docker build -t svastikkka/multi-nginx ./nginx  
@@ -24,17 +20,12 @@ after_success:
   - docker push svastikkka/multi-nginx
   - docker push svastikkka/multi-server 
   - docker push svastikkka/multi-worker
-
-
 notifications:  
   email:  
     recipients:  
-    - manshusharma4u@gmail.com  
+    - manshu143programming@gmail.com  
     on_success: always  
     on_failure: always
-
-# whitelist
-
 branches:
   only:
     - master
