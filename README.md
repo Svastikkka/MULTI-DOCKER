@@ -1,6 +1,6 @@
 <h1>Travis</h1>
  Micro Service App just to get experience with a multi container deployment with production and development grade environment.
-## Tech Stacks
+<h2>Tech Stacks</h2>
 * [Docker](https://www.docker.com) - Containerize app
 * [Docker Compose](https://docs.docker.com/compose) - Local development environment to run tests and builds by using volumes and networks
 * [Docker Hub](https://hub.docker.com/) - Convenient Images
