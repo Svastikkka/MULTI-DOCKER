@@ -5,7 +5,7 @@
 
 <span style="color:#cc0000">The top way over complicated version of a Micro Service App just to get experience with a multi container deployment with production and development  grade environment.</span>
 
-> Combination of React, Express, Redis, Postgres and Node. Multi container app setup with docker and travis CI/CD pipeline. Using images on docker hub to deploy app directly into AWS Elasticbeanstalk
+> Combination of React, Redis, Postgres, Express and Node. Multi container app setup with docker and travis CI/CD pipeline. Using images on docker hub to deploy app directly into AWS and GCP
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@
 
 Created using [App Diagram](https://app.diagrams.net/)
 <div align="center">  
-  <img alt="Application Architechture" src="screenshots/Application Architechture.png"/>
+  <img alt="Application Architechture" src="screenshots/Travis Application Architechture.png"/>
 </div>
 
 ### Development Architecture
