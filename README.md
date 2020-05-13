@@ -1,9 +1,9 @@
-<h1>Micro Services App</h1>
+<h1>Travis Micro Services App</h1>
 
 [![Build Status](https://travis-ci.org/Svastikkka/multi-docker.svg?branch=master)](https://travis-ci.com/Svastikkka/multi-docker)
 
 
-<span style="color:#cc0000">The top way over complicated version of a Micro Service App just to get experience with a multi container deployment with production and development  grade environment.</span>
+<span style="color:#cc0000">Multi containerize application.</span>
 
 > Combination of React, Redis, Postgres, Express and Node. Multi container app setup with docker and travis CI/CD pipeline. Using images on docker hub to deploy app directly into AWS and GCP
 

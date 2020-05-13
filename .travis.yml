@@ -23,7 +23,7 @@ after_success:
 notifications:  
   email:  
     recipients:  
-    - manshu143programming@gmail.com  
+    - manshusharma4u@gmail.com  
     on_success: always  
     on_failure: always
 branches:
