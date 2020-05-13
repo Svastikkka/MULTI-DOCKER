@@ -42,7 +42,9 @@ docker compose up --build
 
 remove --build argument if you are rerunning the app witout making any change in dockerfile and docker-compose.yml file
 
-and you are good to go visit http://localhost:3050
+and you are good to go visit http://localhost:3050 
+
+<b>Note</b>:- After each submission you have refresh the page
 
 Created using [App Diagram](https://app.diagrams.net/)
 <div align="center">  
